@@ -27,7 +27,10 @@ setup(
     url='https://github.com/fsi-tue/fachschaftsempfaenger',
     classifiers=classifiers,
     platforms='Linux',
-    packages=['fachschaftsempfaenger'],
+    packages=['fachschaftsempfaenger',
+              'fachschaftsempfaenger.templates',
+              'fachschaftsempfaenger.templatetags',
+              'fachschaftsempfaenger.static'],
     install_requires=load_requirements('requirements.txt'),
     extras_require={
         'docs': [
