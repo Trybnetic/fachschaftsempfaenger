@@ -4,6 +4,7 @@ include LICENSE.txt
 include requirements.txt
 recursive-include fachschaftsempfaenger/static *
 recursive-include fachschaftsempfaenger/templates *
+recursive-include fachschaftsempfaenger/templatetags *
 graft fachschaftsempfaenger
 graft docs
 global-exclude __pycache__
